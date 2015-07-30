@@ -16,19 +16,20 @@ def main():
 
     #-------------Iterate through the fGI_stats file
     #-----------------Create a dictionary {Unique fGI Inserts: (Start Cluster, End Cluster, Feature)}
-    genome = 'E00001'
+    genome = 'E00002'
     genomeDict=dict() 
     for row in reader_fgi:
         (insert, numberOfGenomes, genomes) = (row[0], row[1], row[2])
         if genome in genomes:
-            if ':' in insert:
-                startCluster = insert[insert.index('E')+1:insert.index(':')-1]
-                endCluster = insert[insert.rindex('E')+1:-1]
-                feature = insert[insert.rindex(':')+1:insert.rindex('E')+1]
-            else:
+            if ':' not in insert:
                 startCluster = insert[insert.rindex('E')+1:-1]
                 endCluster = 'X'
                 feature = 'Break'
+            else:
+                startCluster = insert[insert.index('E')+1:insert.index(':')-1]
+                endCluster = insert[insert.rindex('E')+1:-1]
+                feature = insert[insert.rindex(':')+1:insert.rindex('E')+1]
+
             genomeDict[insert] = [startCluster, endCluster, feature]
 
     #-------------Iterate through the Core.attfGI file
@@ -41,33 +42,33 @@ def main():
             coreDict[clusterID] = [start, end, contig, proteinName]
     
     #-------------Iterate through dictionary of fGI inserts
-    #-----------------Create a list of lists for GFF files of fGI inserts      
-    count = 1
-    for insert in genomeDict:
-        (startCluster, endCluster, feature) = (genomeDict[insert][0], genomeDict[insert][1], genomeDict[insert][2])
-        (start, contig) = (coreDict[startCluster][0], coreDict[startCluster][2])
-        orientation = '+'
-        if endCluster != 'X':
-            end = coreDict[endCluster][1]
-        else: end = coreDict[startCluster][1]
-        if int(start) > int(end):
-            (start, end, orientation) = (end, start, '-')
-        referenceList.append([contig, 'PanOCT', feature, start, end, '.', orientation, '.', 'ID='+feature+str(count)+';Name='+feature+';Note='+insert])
-        count+=1
+    #-----------------Create a list of lists for GFF files of fGI inserts
+
 
     #-------------Iterate through dictionary of fGI inserts and through clusters within each fGI insert
     #-----------------Create a list of lists for GFF files of fGI clusters
     #-----------------Clusters missing in the Core file will be placed in another contig for now since no coordinates available with respect to Core
     count = 1
     for insert in genomeDict:
-        clusterList = clusterSplit(insert)
-        feature = genomeDict[insert][2]
-        for cluster in clusterList:
-            if cluster[:-1] in coreDict:
-                (start, end, orientation, contig, proteinName) = (coreDict[cluster[:-1]][0], coreDict[cluster[:-1]][1], cluster[-1], coreDict[cluster[:-1]][2], coreDict[cluster[:-1]][3])
-                if orientation == '-':
-                    (start, end) = (end, start)
-                referenceList.append([contig, 'PanOCT', 'fgi_CL', start, end, '.', orientation, '.', 'Parent='+feature+str(count)+'; Index=1; Note='+cluster])
+        (startCluster, endCluster, feature) = (genomeDict[insert][0], genomeDict[insert][1], genomeDict[insert][2])
+        (start, contig) = (coreDict[startCluster][0], coreDict[startCluster][2])
+        orientation = '+'
+        print(feature)
+        if feature != 'Break':
+            end = coreDict[endCluster][1]
+        else: end = coreDict[startCluster][1]
+        if int(start) > int(end):
+            (start, end, orientation) = (end, start, '-')
+        referenceList.append([contig, 'PanOCT', feature, start, end, '.', orientation, '.', 'ID='+feature+str(count)+';Name='+feature+';Note='+insert])
+
+        (startCluster, endCluster, feature) = (genomeDict[insert][0], genomeDict[insert][1], genomeDict[insert][2])
+        (start, contig) = (coreDict[startCluster][1], coreDict[startCluster][2])
+        orientation = '+'
+        if endCluster != 'X':
+            end = coreDict[endCluster][0]
+            if int(start) > int(end):
+                (start, end, orientation) = (end, start, '-')
+            referenceList.append([contig, 'PanOCT', 'fgi_CL', start, end, '.', orientation, '.', 'Parent='+feature+str(count)+';Index=1;Note='+insert[insert.index(':')+1:insert.rindex(':')]])
         count+=1
 
 
