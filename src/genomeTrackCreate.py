@@ -27,9 +27,9 @@ def main():
        if '\n' in genome:
            genome = genome[0:-1]
        genomeDict = createfgiInsertDict(reader_fgi, genome)
-       geneDict = createGeneDict(panoctList, reader_combined, genome)
+       #geneDict = createGeneDict(panoctList, reader_combined, genome)
        referenceList = createfGIFeatures(genomeDict, coreDict, genome)
-       referenceList.extend(createGeneFeatures(clusterContigDict, geneDict, genome))
+       #referenceList.extend(createGeneFeatures(clusterContigDict, geneDict, genome))
        #referenceList = createGeneFeatures(clusterContigDict, geneDict, genome)
        writeFile(genome, referenceList)
        print(genome + ' File Created')

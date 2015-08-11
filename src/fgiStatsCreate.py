@@ -25,11 +25,15 @@ def main():
                 startCluster = insert[insert.rindex('E')+1:-1]
                 endCluster = 'X'
                 feature = 'Break'
-            else:
+            elif 'STOP_CORE' in insert or 'U_CORE' in insert:
                 startCluster = insert[insert.index('E')+1:insert.index(':')-1]
                 endCluster = insert[insert.rindex('E')+1:-1]
                 feature = insert[insert.rindex(':')+1:insert.rindex('E')+1]
-
+            else:
+                print(insert)
+                startCluster = insert[insert.index('E')+1:insert.index(':')-1]
+                endCluster = 'X'
+                feature = 'Break'
             genomeDict[insert] = [startCluster, endCluster, feature]
 
     #-------------Iterate through the Core.attfGI file
@@ -41,10 +45,6 @@ def main():
             clusterID = cluster[cluster.index('_')+1::]
             coreDict[clusterID] = [start, end, contig, proteinName]
     
-    #-------------Iterate through dictionary of fGI inserts
-    #-----------------Create a list of lists for GFF files of fGI inserts
-
-
     #-------------Iterate through dictionary of fGI inserts and through clusters within each fGI insert
     #-----------------Create a list of lists for GFF files of fGI clusters
     #-----------------Clusters missing in the Core file will be placed in another contig for now since no coordinates available with respect to Core
@@ -72,7 +72,7 @@ def main():
         count+=1
 
 
-    with open("e00001GFF.csv", "w") as f:
+    with open("e00002GFF.csv", "w") as f:
         writer = csv.writer(f, delimiter='\t')
         writer.writerows(referenceList)
 
