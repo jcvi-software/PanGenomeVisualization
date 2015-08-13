@@ -4,34 +4,24 @@
 #           7/27/2015            #
 #--------------------------------#
 
-import csv, pickle
+import csv, pickle, os
 from collections import OrderedDict
 
 
 def main():
-#---Reading Files
-#---Centroid: Fasta for Genes & Cluster
-#---Core.attfGI: Contig to Cluster
-    reader_fasta = csv.reader(open('centroids.csv', 'rt', encoding="ascii"), delimiter=',')
-    reader_core = csv.reader(open('Core_attfGI.csv', 'rt', encoding="ascii"), delimiter=',')
-    reader_combined = csv.reader(open('combined_att_file.csv', 'rt', encoding="ascii"), delimiter=',')
+    path, endPath = getFilePath()
+    reader_core = csv.reader(open(path+'Core_attfGI.csv', 'rt', encoding="ascii"), delimiter=',')
+    reader_combined = list(csv.reader(open(path+'combined_att_file.csv', 'rt', encoding="ascii"), delimiter=','))
 
-    # coreDictCreate(reader_core)
-    # createClusterDicts(reader_fasta)
-
-    coreDict = pickle.load(open('consensusCore.dict', 'rb'))
-    centroidFileDict = pickle.load(open('centroidSequence.dict', 'rb'))
-    geneClusterDict = pickle.load(open('geneToCluster.dict', 'rb'))
+    coreDict = pickle.load(open(path+'coreCluster.dict', 'rb'))
+    centroidFileDict = pickle.load(open(path+'centroidSequence.dict', 'rb'))
+    geneClusterDict = pickle.load(open(path+'geneToCluster.dict', 'rb'))
 
     contigDict = OrderedDict([('1',''), ('2',''), ('3',''), ('4',''), ('Missing', '')])
 
     (oldStart, oldEnd) = (0, 0)
-    count = 0
-    contigList = []
-    contigList.append('>1' + '\n')
     contigStr = ''
     countPush = 0
-    countinc = 1
     for clusterfGI in coreDict:
         (contig, start, end) = (coreDict[clusterfGI][0], int(coreDict[clusterfGI][1]), int(coreDict[clusterfGI][2]))
         if start > end:
@@ -60,14 +50,26 @@ def main():
         referenceList.append('>'+contig+'\n')
         referenceList.append(contigDict[contig]+'\n')
 
-    with open("reference.fasta", "w") as f:
+    with open(endPath+"reference.fasta", "w") as f:
         f.writelines(referenceList)
 
 
+#------------------------------------------------------------------------------------------------------------------Methods
+def getFilePath():
+    path = input('Enter file path for input data:   ')
+    endPath = input('Enter file path for output data:   ')
+    if not(os.path.isdir(path)):
+        print('Sorry the input path you specified does not exist. Make sure you end the path name with a backslash.')
+        exit()
+    if not(os.path.isdir(endPath)):
+        print('Sorry the output path you specified does not exist. Make sure you end the path name with a backslash.')
+        exit()
+    if not(os.path.isfile(path+'fGI_stats.csv') and os.path.isfile(path+'Core_attfGI.csv')):
+        print('Sorry the path you specified does not contain the required files fGI_stats.csv and Core_attfGI.csv')
+        exit()
+    return path, endPath
 
 
-
-################################################################################
 def modResult(start, end):
     modResult = (abs(start - end))%3
     if modResult == 0:
@@ -76,48 +78,15 @@ def modResult(start, end):
         return (int(abs(start - end)/3) - 1)
     return (int(abs(start - end)/3) + 1)
 
-
-#---Creating List of Necessary Cluster/Contig Pairs
-#---Ignoring CL_INS for now and CONTEXT
-def coreDictCreate(reader_core):
-    (oldStart, oldEnd) = (0, 0)
-    coreDict = OrderedDict()
+def createCoreClusterDict(reader_core):
+    coreDict = dict()
     for row in reader_core:
-        (contig, cluster, start, end, name, feature, aminoAcids) = (row[0], row[1], row[2], row[3], row[4], row[5], row[6])
-        orientation = '+'
-        (start, end) = (int(int(start)/3),int(int(end)/3))
+        (cluster, start, end, contig, proteinName) = (row[1], int(int(row[2])/3), int(int(row[3])/3), row[0], row[4])
         if start > end:
-            (start, end, orientation) = (end, start, '-')
-        if start == oldEnd:
-            start+=1
-        end = start+int(aminoAcids)
-        if not 'CONTEXT' in cluster:
-            if not 'CL_INS' in cluster:
-                cluster = cluster[cluster.index('_')+1::]
-                coreDict[cluster] = (contig, start, end)
-            else: coreDict[cluster] = (contig, start, end)
-
-    pickle.dump(coreDict, open('consensusCore.dict', 'wb'))
-
-
-#---Create an ordered dictionary (same order as coreattList) of clusters
-def createClusterDicts(reader_fasta):
-    key = ''
-    values = ''
-    centroidFileDict = dict()
-    geneClusterDict = dict()
-    for row in reader_fasta:
-        row = [element for element in row if element != '']
-        if '>' in row[0]:
-            centroidFileDict[key] = values
-            values = ''
-            lines = row[0].split(' ')[0]
-            key = lines[lines.index('_')+1::]
-            geneClusterDict[lines[1]] = key
-        else:
-            values+=row[0]
-    pickle.dump(centroidFileDict, open('centroidSequence.dict', 'wb'))
-    pickle.dump(geneClusterDict, open('geneToCluster.dict', 'wb'))
-
+            (start, end) = (end, start)
+        if not 'INS' in cluster and not 'CONTEXT' in cluster:
+            clusterID = cluster[cluster.index('_')+1::]
+            coreDict[clusterID] = [contig, start, end]
+    return coreDict
 
 main()

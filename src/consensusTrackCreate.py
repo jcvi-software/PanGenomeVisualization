@@ -1,27 +1,45 @@
-#------------------------------#
-#   Gene GFF Program           #
-#        Namita Dongre         #
-#------------------------------#
+#----------------------------------------- ----#
+#        Creating the Consensus Track          #
+#              Namita Dongre                   #
+#----------------------------------------------#
 
-import csv
+import csv, os
 
 
 def main():
     #---Consensus
-    reader_fgi = csv.reader(open('fGI_stats.csv', 'rt', encoding="ascii"), delimiter=',')
-    reader_core = csv.reader(open('Core_attfGI.csv', 'rt', encoding="ascii"), delimiter=',')
+    path, endPath = getFilePath()
+    reader_fgi = csv.reader(open(path+'fGI_stats.csv', 'rt', encoding="ascii"), delimiter=',')
+    reader_core = csv.reader(open(path+'Core_attfGI.csv', 'rt', encoding="ascii"), delimiter=',')
     referenceList = []
 
-    #-----------------Created a dictionary of {Insertion ID: (cluster1_direction, cluster2_direction)}
-    #-----------------------In some cases, only 1 cluster present
-    #-----------------------Direction denoted by 5' or 3'
     consensusDict = dict()
     for row in reader_fgi:
         if 'CL_INS' in row[0]:
             consensusDict[row[0]] = (row[1], row[2])
 
-    #-----------------Created a list of GFF data for fGI inserts and Clusters of consensus
+    referenceList = createConsensusFile(consensusDict, reader_core)
+    writeFile(endPath, referenceList)
+
+#------------------------------------------------------------------------------------------------------------------Methods
+def getFilePath():
+    path = input('Enter file path for input data:   ')
+    endPath = input('Enter file path for output data:   ')
+    if not(os.path.isdir(path)):
+        print('Sorry the input path you specified does not exist. Make sure you end the path name with a backslash.')
+        exit()
+    if not(os.path.isdir(endPath)):
+        print('Sorry the output path you specified does not exist. Make sure you end the path name with a backslash.')
+        exit()
+    if not(os.path.isfile(path+'fGI_stats.csv') and os.path.isfile(path+'Core_attfGI.csv')):
+        print('Sorry the path you specified does not contain the required files fGI_stats.csv and Core_attfGI.csv')
+        exit()
+    return path, endPath
+
+
+def createConsensusFile(consensusDict, reader_core):
     (oldStart, oldEnd) = (0, 0)
+    referenceList = []
     for row in reader_core:
         (contig, insertionID, start, end, name, feature, aminoAcids) = (row[0], row[1], row[2], row[3], row[4], row[5], row[6])
         orientation = '+'
@@ -42,9 +60,13 @@ def main():
             annotation = 'Name= ' + insertionID[insertionID.index('_')+1::] + '; Note= ' + name
             referenceList.append([contig, 'PanOCT', feature, start, end, '.', orientation, '.', annotation])
         (oldStart, oldEnd) = (start, end)
+    return referenceList
 
-    with open("consensus.gff", "w") as f:
-        writer = csv.writer(f, delimiter='\t')
+def writeFile(outpath, referenceList):
+    with open(outpath +'consensus.gff', 'w') as f:
+        writer = csv.writer(f, delimiter='\t', quoting=csv.QUOTE_NONE)
         writer.writerows(referenceList)
+    print('consensus.gff File Created')
 
+#-------------------------------------------------------------------------------------------------------------------Main
 main()

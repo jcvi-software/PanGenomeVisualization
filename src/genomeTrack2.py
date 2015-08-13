@@ -4,15 +4,16 @@
 #   Genome GFF Tracks     #
 #-------------------------#
 
-import csv, pickle
+import csv, pickle, os
 
 def main():
-    reader_fgi = list(csv.reader(open('fGI_stats.csv', 'rt', encoding="ascii"), delimiter=','))
-    reader_core = list(csv.reader(open('Core_attfGI.csv', 'rt', encoding="ascii"), delimiter=','))
-    genomeListing = list(open('db.txt', 'r'))
+    path, endPath = getFilePath()
+    reader_fgi = list(csv.reader(open(path+'fGI_stats.csv', 'rt', encoding="ascii"), delimiter=','))
+    reader_core = list(csv.reader(open(path+'Core_attfGI.csv', 'rt', encoding="ascii"), delimiter=','))
+    genomeListing = list(open(path+'db.txt', 'r'))
 
-    genomeClusterDict = pickle.load(open('genomeCluster.dict', 'rb'))
-    genomeLocusDict = pickle.load(open('genomeLocus.dict', 'rb'))
+    genomeClusterDict = pickle.load(open(path+'genomeCluster.dict', 'rb'))
+    genomeLocusDict = pickle.load(open(path+'genomeLocus.dict', 'rb'))
     coreDict, fgiDict = createCoreClusterDict(reader_core)
 
     genomeIdDict = {}
@@ -26,10 +27,23 @@ def main():
     for genome in genomeIdDict:
        genomeDict = createfgiInsertDict(reader_fgi, genome)
        referenceList = createfGIFeatures(genomeDict, coreDict, fgiDict, genomeClusterDict, genomeLocusDict, genome, genomeIdDict[genome])
-       writeFile(genome, referenceList)
-       print(genome + ' File Created')
+       writeFile(endPath, genome, referenceList)
 
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------Methods
+def getFilePath():
+    path = input('Enter file path for input data:   ')
+    endPath = input('Enter file path for output data:   ')
+    if not(os.path.isdir(path)):
+        print('Sorry the input path you specified does not exist. Make sure you end the path name with a backslash.')
+        exit()
+    if not(os.path.isdir(endPath)):
+        print('Sorry the output path you specified does not exist. Make sure you end the path name with a backslash.')
+        exit()
+    if not(os.path.isfile(path+'fGI_stats.csv') and os.path.isfile(path+'Core_attfGI.csv')):
+        print('Sorry the path you specified does not contain the required files fGI_stats.csv and Core_attfGI.csv')
+        exit()
+    return path, endPath
+
 def createfgiInsertDict(reader_fgi, genome):
     genomeDict=dict()
     for row in reader_fgi:
@@ -106,10 +120,11 @@ def clusterInsertSplit(insert):
     return insert.split(':')[1:-1]
 
 
-def writeFile(genome, referenceList):
-    with open(genome+'.gff', 'w') as f:
+def writeFile(outPath, genome, referenceList):
+    with open(outPath + genome+'.gff', 'w') as f:
         writer = csv.writer(f, delimiter='\t', quoting=csv.QUOTE_NONE)
         writer.writerows(referenceList)
+    print(genome+'.gff File Created.')
 
 
 main()
