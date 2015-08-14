@@ -1,0 +1,589 @@
+1	PanOCT	STOP_CORE	372395	373453	.	+	.	ID=STOP_CORE1;Note=START_CORE1556+:1557+:1558+:STOP_CORE1559+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1557, 1558, 
+1	PanOCT	STOP_CORE_Cluster	372395	372521	.	+	.	Name=CL_1556;Parent=STOP_CORE1;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	373076	373453	.	+	.	Name=CL_1559;Parent=STOP_CORE1;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	241177	241564	.	+	.	ID=Break2;Note=START_CORE1142-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	241177	241564	.	+	.	Name=CL_1142;Parent=Break2;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	662157	663735	.	+	.	ID=U_CORE3;Note=START_CORE2715-:7756-:7755-:7754+:7753+:7752-:U_CORE2712-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=7756, 7755, 7754, 7753, 7752, 
+1	PanOCT	U_CORE_Cluster	662157	662425	.	+	.	Name=CL_2715;Parent=U_CORE3;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	663473	663735	.	+	.	Name=CL_2712;Parent=U_CORE3;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	39338	42564	.	+	.	ID=STOP_CORE4;Note=START_CORE562-:563-:564-:565-:566+:567-:STOP_CORE568-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=563, 564, 565, 566, 567, 
+1	PanOCT	STOP_CORE_Cluster	39338	40050	.	+	.	Name=CL_562;Parent=STOP_CORE4;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	42017	42564	.	+	.	Name=CL_568;Parent=STOP_CORE4;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1052677	1054040	.	+	.	ID=STOP_CORE5;Note=START_CORE3740+:STOP_CORE3741+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	1052677	1052753	.	+	.	Name=CL_3740;Parent=STOP_CORE5;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1053187	1054040	.	+	.	Name=CL_3741;Parent=STOP_CORE5;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1134407	1135463	.	+	.	ID=STOP_CORE6;Note=START_CORE4064+:8468+:8469+:8470+:8471-:8472-:STOP_CORE4066-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=8468, 8469, 8470, 8471, 8472, 
+1	PanOCT	STOP_CORE_Cluster	1134407	1134695	.	+	.	Name=CL_4064;Parent=STOP_CORE6;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1134948	1135463	.	+	.	Name=CL_4066;Parent=STOP_CORE6;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	14976	15415	.	+	.	ID=Break7;Note=START_CORE1-;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	14976	15415	.	+	.	Name=CL_1;Parent=Break7;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1138817	1140389	.	+	.	ID=STOP_CORE8;Note=START_CORE4081-:STOP_CORE4082+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	1138817	1139908	.	+	.	Name=CL_4081;Parent=STOP_CORE8;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1140291	1140389	.	+	.	Name=CL_4082;Parent=STOP_CORE8;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	139531	140435	.	+	.	ID=STOP_CORE9;Note=START_CORE78+:STOP_CORE77-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion
+2	PanOCT	STOP_CORE_Cluster	139531	139959	.	+	.	Name=CL_78;Parent=STOP_CORE9;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	140320	140435	.	+	.	Name=CL_77;Parent=STOP_CORE9;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+3	PanOCT	Break	33598	34044	.	+	.	ID=Break10;Note=START_CORE2324-;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	33598	34044	.	+	.	Name=CL_2324;Parent=Break10;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+2	PanOCT	U_CORE	30842	32131	.	+	.	ID=U_CORE11;Note=START_CORE410+:U_CORE406+;Contig=2;Genome=E00031;Name=U_CORE Insertion
+2	PanOCT	U_CORE_Cluster	30842	31401	.	+	.	Name=CL_410;Parent=U_CORE11;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	U_CORE_Cluster	31907	32131	.	+	.	Name=CL_406;Parent=U_CORE11;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	346171	351496	.	+	.	ID=STOP_CORE12;Note=START_CORE1479+:7811-:STOP_CORE1488+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7811, 
+1	PanOCT	STOP_CORE_Cluster	346171	346517	.	+	.	Name=CL_1479;Parent=STOP_CORE12;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	351038	351496	.	+	.	Name=CL_1488;Parent=STOP_CORE12;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	72537	73060	.	+	.	ID=Break13;Note=START_CORE662-:663+:664+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=663, 
+1	PanOCT	Break_Cluster	72537	72960	.	+	.	Name=CL_662-;Parent=Break13;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	61600	61727	.	+	.	ID=Break14;Note=START_CORE319-:318+;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	61600	61727	.	+	.	Name=CL_319-;Parent=Break14;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	Break	830901	831048	.	+	.	ID=Break15;Note=START_CORE3163-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	830901	831048	.	+	.	Name=CL_3163;Parent=Break15;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	801342	807472	.	+	.	ID=STOP_CORE16;Note=START_CORE3078-:8143-:8144-:8145-:8146-:8147-:8148-:8149-:8150-:8151-:3089-:3090-:3091-:STOP_CORE3092-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=8143, 8144, 8145, 8146, 8147, 8148, 8149, 8150, 8151, 3089, 3090, 3091, 
+1	PanOCT	STOP_CORE_Cluster	801342	801810	.	+	.	Name=CL_3078;Parent=STOP_CORE16;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	807174	807472	.	+	.	Name=CL_3092;Parent=STOP_CORE16;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	355006	356386	.	+	.	ID=STOP_CORE17;Note=START_CORE1497-:1498-:STOP_CORE1499-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1498, 
+1	PanOCT	STOP_CORE_Cluster	355006	355277	.	+	.	Name=CL_1497;Parent=STOP_CORE17;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	356087	356386	.	+	.	Name=CL_1499;Parent=STOP_CORE17;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1230523	1236641	.	+	.	ID=Break18;Note=START_CORE4166-:8326+:5553-:5552-:8325-:5550-:5549-:5548-:5547-:5546-:5545-:5544-:5543-:5542-:5541-:5540-:5539-:5538-:5537-:5536-:5535-:5534-:5533-:5532-:5531-:5530-:5529+:5528+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=8326, 5553, 5552, 8325, 5550, 5549, 5548, 5547, 5546, 5545, 5544, 5543, 5542, 5541, 5540, 5539, 5538, 5537, 5536, 5535, 5534, 5533, 5532, 5531, 5530, 5529, 
+1	PanOCT	Break_Cluster	1230523	1230691	.	+	.	Name=CL_4166-;Parent=Break18;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	3347	3628	.	+	.	ID=Break19;Note=START_CORE450-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	3347	3628	.	+	.	Name=CL_450;Parent=Break19;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+4	PanOCT	STOP_CORE	6404	14066	.	+	.	ID=STOP_CORE20;Note=START_CORE3975+:STOP_CORE3976-;Contig=4;Genome=E00031;Name=STOP_CORE Insertion
+4	PanOCT	STOP_CORE_Cluster	6404	6444	.	+	.	Name=CL_3975;Parent=STOP_CORE20;Note=Core Cluster; Contig=4;Genome=E00031;Index=1
+4	PanOCT	STOP_CORE_Cluster	13732	14066	.	+	.	Name=CL_3976;Parent=STOP_CORE20;Note=Core Cluster; Contig=4;Genome=E00031;Index=1
+4	PanOCT	Break	31983	34201	.	+	.	ID=Break21;Note=START_CORE3980+:8492-:6207-:6206+:8493+:8494+:8495+:8496-:8497+:8498-:8499-;Contig=4;Genome=E00031;Name=Break Insertion;Genes=8492, 6207, 6206, 8493, 8494, 8495, 8496, 8497, 8498, 
+4	PanOCT	Break_Cluster	31983	32091	.	+	.	Name=CL_3980+;Parent=Break21;Note=Core Cluster; Contig=4;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	918028	918944	.	+	.	ID=STOP_CORE22;Note=START_CORE3422+:5213-:5212+:STOP_CORE3423+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=5213, 5212, 
+1	PanOCT	STOP_CORE_Cluster	918028	918084	.	+	.	Name=CL_3422;Parent=STOP_CORE22;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	918789	918944	.	+	.	Name=CL_3423;Parent=STOP_CORE22;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	181073	183907	.	+	.	ID=U_CORE23;Note=START_CORE959+:8202+:8201+:8200+:8199-:8198-:8197-:8196-:8195-:8194-:8193-:8192-:8191-:8190-:8189+:8188+:5885+:U_CORE964-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8202, 8201, 8200, 8199, 8198, 8197, 8196, 8195, 8194, 8193, 8192, 8191, 8190, 8189, 8188, 5885, 
+1	PanOCT	U_CORE_Cluster	181073	181490	.	+	.	Name=CL_959;Parent=U_CORE23;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	183313	183907	.	+	.	Name=CL_964;Parent=U_CORE23;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	840915	842081	.	+	.	ID=STOP_CORE24;Note=START_CORE3193+:8165+:STOP_CORE3194-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=8165, 
+1	PanOCT	STOP_CORE_Cluster	840915	841151	.	+	.	Name=CL_3193;Parent=STOP_CORE24;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	841745	842081	.	+	.	Name=CL_3194;Parent=STOP_CORE24;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	707537	711227	.	+	.	ID=STOP_CORE25;Note=START_CORE2817-:7788-:7789-:7790-:5271-:7791-:7792-:5268-:7793-:7794-:7795-:5264-:STOP_CORE5263-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7788, 7789, 7790, 5271, 7791, 7792, 5268, 7793, 7794, 7795, 5264, 
+1	PanOCT	STOP_CORE_Cluster	707537	707683	.	+	.	Name=CL_2817;Parent=STOP_CORE25;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	711076	711227	.	+	.	Name=CL_5263;Parent=STOP_CORE25;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	67225	67759	.	+	.	ID=STOP_CORE26;Note=START_CORE645-:646-:STOP_CORE647+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=646, 
+1	PanOCT	STOP_CORE_Cluster	67225	67430	.	+	.	Name=CL_645;Parent=STOP_CORE26;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	67558	67759	.	+	.	Name=CL_647;Parent=STOP_CORE26;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	1323850	1324655	.	+	.	ID=U_CORE27;Note=START_CORE4456+:4455+:U_CORE4453+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=4455, 
+1	PanOCT	U_CORE_Cluster	1323850	1324023	.	+	.	Name=CL_4456;Parent=U_CORE27;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1324521	1324655	.	+	.	Name=CL_4453;Parent=U_CORE27;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1151515	1205108	.	+	.	ID=STOP_CORE28;Note=START_CORE4085+:STOP_CORE4086+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	1151515	1151606	.	+	.	Name=CL_4085;Parent=STOP_CORE28;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1204983	1205108	.	+	.	Name=CL_4086;Parent=STOP_CORE28;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1014737	1015128	.	+	.	ID=Break29;Note=START_CORE3659+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1014737	1015128	.	+	.	Name=CL_3659;Parent=Break29;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	716549	717486	.	+	.	ID=STOP_CORE30;Note=START_CORE2833-:7798-:STOP_CORE2835-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7798, 
+1	PanOCT	STOP_CORE_Cluster	716549	716682	.	+	.	Name=CL_2833;Parent=STOP_CORE30;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	716987	717486	.	+	.	Name=CL_2835;Parent=STOP_CORE30;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	505280	507678	.	+	.	ID=STOP_CORE31;Note=START_CORE1992+:STOP_CORE1993-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	505280	505491	.	+	.	Name=CL_1992;Parent=STOP_CORE31;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	507147	507678	.	+	.	Name=CL_1993;Parent=STOP_CORE31;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1012765	1013121	.	+	.	ID=Break32;Note=START_CORE3653-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1012765	1013121	.	+	.	Name=CL_3653;Parent=Break32;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	31857	31907	.	+	.	ID=Break33;Note=START_CORE407-;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	31857	31907	.	+	.	Name=CL_407;Parent=Break33;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	821888	823144	.	+	.	ID=STOP_CORE34;Note=START_CORE3126+:8152-:STOP_CORE3127+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=8152, 
+1	PanOCT	STOP_CORE_Cluster	821888	822341	.	+	.	Name=CL_3126;Parent=STOP_CORE34;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	822845	823144	.	+	.	Name=CL_3127;Parent=STOP_CORE34;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	205625	209791	.	+	.	ID=STOP_CORE35;Note=START_CORE1033-:STOP_CORE1043-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	205625	206078	.	+	.	Name=CL_1033;Parent=STOP_CORE35;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	209496	209791	.	+	.	Name=CL_1043;Parent=STOP_CORE35;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	207768	212559	.	+	.	ID=STOP_CORE36;Note=START_CORE4659+:8346-:8347+:4654-:4653-:4652-:4651-:4650-:4648-:4647-:4646+:STOP_CORE4645+;Contig=2;Genome=E00031;Name=STOP_CORE Insertion;Genes=8346, 8347, 4654, 4653, 4652, 4651, 4650, 4648, 4647, 4646, 
+2	PanOCT	STOP_CORE_Cluster	207768	208280	.	+	.	Name=CL_4659;Parent=STOP_CORE36;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	212408	212559	.	+	.	Name=CL_4645;Parent=STOP_CORE36;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	Break	250844	250971	.	+	.	ID=Break37;Note=START_CORE1201+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	250844	250971	.	+	.	Name=CL_1201;Parent=Break37;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1014737	1015128	.	+	.	ID=Break38;Note=START_CORE3659-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1014737	1015128	.	+	.	Name=CL_3659;Parent=Break38;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	546823	553558	.	+	.	ID=U_CORE39;Note=START_CORE2139+:7613-:7612-:7611+:7610+:7609-:U_CORE2125-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=7613, 7612, 7611, 7610, 7609, 
+1	PanOCT	U_CORE_Cluster	546823	547500	.	+	.	Name=CL_2139;Parent=U_CORE39;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	553229	553558	.	+	.	Name=CL_2125;Parent=U_CORE39;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1032067	1032350	.	+	.	ID=STOP_CORE40;Note=START_CORE3676-:8301+:5585+:STOP_CORE3677+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=8301, 5585, 
+1	PanOCT	STOP_CORE_Cluster	1032067	1032119	.	+	.	Name=CL_3676;Parent=STOP_CORE40;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1032291	1032350	.	+	.	Name=CL_3677;Parent=STOP_CORE40;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1095331	1095378	.	+	.	ID=Break41;Note=START_CORE3866-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1095331	1095378	.	+	.	Name=CL_3866;Parent=Break41;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	73617	74323	.	+	.	ID=Break42;Note=START_CORE667-:666+:665+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=666, 
+1	PanOCT	Break_Cluster	73617	74073	.	+	.	Name=CL_667-;Parent=Break42;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1205199	1205698	.	+	.	ID=Break43;Note=START_CORE4088+:4089+:4090+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=4089, 
+1	PanOCT	Break_Cluster	1205199	1205568	.	+	.	Name=CL_4088+;Parent=Break43;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	243504	248386	.	+	.	ID=Break44;Note=START_CORE5415-:7857-:7856-:5904-:7855+:7387+:7854+:1164+:5906+:7853+:7852+:7851+:7850+:7849+:5911+:7848+:7847+:7846+:1178+:7845+:7040+:7844+:7843+:7842+:7841-:7840+:7839-:7838+:7837+:7836+:7835+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=7857, 7856, 5904, 7855, 7387, 7854, 1164, 5906, 7853, 7852, 7851, 7850, 7849, 5911, 7848, 7847, 7846, 1178, 7845, 7040, 7844, 7843, 7842, 7841, 7840, 7839, 7838, 7837, 7836, 
+1	PanOCT	Break_Cluster	243504	243556	.	+	.	Name=CL_5415-;Parent=Break44;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	651525	891624	.	+	.	ID=U_CORE45;Note=START_CORE3338+:8418-:8419-:8420-:2669-:2670-:2671-:2672-:2673-:8421-:8422-:8423-:8424-:8425-:8426-:8427-:2676-:2677-:2678-:2679-:U_CORE2680-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8418, 8419, 8420, 2669, 2670, 2671, 2672, 2673, 8421, 8422, 8423, 8424, 8425, 8426, 8427, 2676, 2677, 2678, 2679, 
+1	PanOCT	U_CORE_Cluster	651525	651627	.	+	.	Name=CL_3338;Parent=U_CORE45;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	891315	891624	.	+	.	Name=CL_2680;Parent=U_CORE45;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	595777	596307	.	+	.	ID=STOP_CORE46;Note=START_CORE2252-:5341+:7668+:STOP_CORE2255+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=5341, 7668, 
+1	PanOCT	STOP_CORE_Cluster	595777	595959	.	+	.	Name=CL_2252;Parent=STOP_CORE46;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	596161	596307	.	+	.	Name=CL_2255;Parent=STOP_CORE46;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	14347	14606	.	+	.	ID=Break47;Note=START_CORE47-;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	14347	14606	.	+	.	Name=CL_47;Parent=Break47;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	Break	1311146	1311850	.	+	.	ID=Break48;Note=START_CORE4408+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1311146	1311850	.	+	.	Name=CL_4408;Parent=Break48;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	541485	541710	.	+	.	ID=Break49;Note=START_CORE2103+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	541485	541710	.	+	.	Name=CL_2103;Parent=Break49;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	163503	175308	.	+	.	ID=STOP_CORE50;Note=START_CORE932+:933+:934+:935+:936+:937+:938+:939+:STOP_CORE940-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=933, 934, 935, 936, 937, 938, 939, 
+1	PanOCT	STOP_CORE_Cluster	163503	163749	.	+	.	Name=CL_932;Parent=STOP_CORE50;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	175052	175308	.	+	.	Name=CL_940;Parent=STOP_CORE50;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1129635	1130229	.	+	.	ID=Break51;Note=START_CORE4054+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1129635	1130229	.	+	.	Name=CL_4054;Parent=Break51;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1288956	1289358	.	+	.	ID=STOP_CORE52;Note=START_CORE4319-:7999+:STOP_CORE4320-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7999, 
+1	PanOCT	STOP_CORE_Cluster	1288956	1289168	.	+	.	Name=CL_4319;Parent=STOP_CORE52;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1289228	1289358	.	+	.	Name=CL_4320;Parent=STOP_CORE52;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	136252	139041	.	+	.	ID=U_CORE53;Note=START_CORE851+:U_CORE859-;Contig=1;Genome=E00031;Name=U_CORE Insertion
+1	PanOCT	U_CORE_Cluster	136252	136667	.	+	.	Name=CL_851;Parent=U_CORE53;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	138915	139041	.	+	.	Name=CL_859;Parent=U_CORE53;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	540617	921874	.	+	.	ID=U_CORE54;Note=START_CORE2099-:8232-:8233+:8234-:8235-:8236-:8237-:U_CORE3431-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8232, 8233, 8234, 8235, 8236, 8237, 
+1	PanOCT	U_CORE_Cluster	540617	540866	.	+	.	Name=CL_2099;Parent=U_CORE54;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	921757	921874	.	+	.	Name=CL_3431;Parent=U_CORE54;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	651525	891624	.	+	.	ID=U_CORE55;Note=START_CORE2680+:2679+:2678+:2677+:2676+:8427+:8426+:8425+:8424+:8423+:8422+:8421+:2673+:2672+:2671+:2670+:2669+:8420+:8419+:8418+:U_CORE3338-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=2679, 2678, 2677, 2676, 8427, 8426, 8425, 8424, 8423, 8422, 8421, 2673, 2672, 2671, 2670, 2669, 8420, 8419, 8418, 
+1	PanOCT	U_CORE_Cluster	651525	651627	.	+	.	Name=CL_2680;Parent=U_CORE55;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	891315	891624	.	+	.	Name=CL_3338;Parent=U_CORE55;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	80901	82164	.	+	.	ID=STOP_CORE56;Note=START_CORE257+:5754+:STOP_CORE256-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion;Genes=5754, 
+2	PanOCT	STOP_CORE_Cluster	80901	81300	.	+	.	Name=CL_257;Parent=STOP_CORE56;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	81703	82164	.	+	.	Name=CL_256;Parent=STOP_CORE56;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	Break	121365	121693	.	+	.	ID=Break57;Note=START_CORE136+;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	121365	121693	.	+	.	Name=CL_136;Parent=Break57;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1113139	1114239	.	+	.	ID=STOP_CORE58;Note=START_CORE3926-:5576-:STOP_CORE3927+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=5576, 
+1	PanOCT	STOP_CORE_Cluster	1113139	1113797	.	+	.	Name=CL_3926;Parent=STOP_CORE58;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1113855	1114239	.	+	.	Name=CL_3927;Parent=STOP_CORE58;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	233799	1359290	.	+	.	ID=U_CORE59;Note=START_CORE4561-:8294-:6186+:6187-:6188+:8295+:U_CORE4592-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8294, 6186, 6187, 6188, 8295, 
+1	PanOCT	U_CORE_Cluster	233799	234199	.	+	.	Name=CL_4561;Parent=U_CORE59;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1358949	1359290	.	+	.	Name=CL_4592;Parent=U_CORE59;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	796916	797951	.	+	.	ID=STOP_CORE60;Note=START_CORE3064-:3065-:STOP_CORE3066-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=3065, 
+1	PanOCT	STOP_CORE_Cluster	796916	797368	.	+	.	Name=CL_3064;Parent=STOP_CORE60;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	797677	797951	.	+	.	Name=CL_3066;Parent=STOP_CORE60;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	542121	542405	.	+	.	ID=Break61;Note=START_CORE2107-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	542121	542405	.	+	.	Name=CL_2107;Parent=Break61;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	923799	924729	.	+	.	ID=STOP_CORE62;Note=START_CORE3487-:3488-:STOP_CORE3489-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=3488, 
+1	PanOCT	STOP_CORE_Cluster	923799	923872	.	+	.	Name=CL_3487;Parent=STOP_CORE62;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	924216	924729	.	+	.	Name=CL_3489;Parent=STOP_CORE62;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1216022	1216300	.	+	.	ID=Break63;Note=START_CORE4122+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1216022	1216300	.	+	.	Name=CL_4122;Parent=Break63;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	906433	907745	.	+	.	ID=STOP_CORE64;Note=START_CORE3391-:STOP_CORE3393+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	906433	907091	.	+	.	Name=CL_3391;Parent=STOP_CORE64;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	907181	907745	.	+	.	Name=CL_3393;Parent=STOP_CORE64;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	822845	828805	.	+	.	ID=STOP_CORE65;Note=START_CORE3127+:STOP_CORE3142-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	822845	823144	.	+	.	Name=CL_3127;Parent=STOP_CORE65;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	828455	828805	.	+	.	Name=CL_3142;Parent=STOP_CORE65;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	451651	452137	.	+	.	ID=STOP_CORE66;Note=START_CORE1805-:STOP_CORE1806+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	451651	451993	.	+	.	Name=CL_1805;Parent=STOP_CORE66;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	452053	452137	.	+	.	Name=CL_1806;Parent=STOP_CORE66;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1363018	1369622	.	+	.	ID=Break67;Note=START_CORE4563+:6814-:6813-:6812+:6811+:6810+:6808-:6807-:6806+:6805+:6804+:4889-:6111-:6112-:8343-:8342+:8341+:8340+:8339+:8338+:8337+:8336+:8335+:8334+:8333+:8332+:8331+:8330+:8329+:8328+:8327+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=6814, 6813, 6812, 6811, 6810, 6808, 6807, 6806, 6805, 6804, 4889, 6111, 6112, 8343, 8342, 8341, 8340, 8339, 8338, 8337, 8336, 8335, 8334, 8333, 8332, 8331, 8330, 8329, 8328, 
+1	PanOCT	Break_Cluster	1363018	1363162	.	+	.	Name=CL_4563+;Parent=Break67;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	621723	623621	.	+	.	ID=STOP_CORE68;Note=START_CORE2600+:2601+:STOP_CORE2602+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=2601, 
+1	PanOCT	STOP_CORE_Cluster	621723	621914	.	+	.	Name=CL_2600;Parent=STOP_CORE68;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	622375	623621	.	+	.	Name=CL_2602;Parent=STOP_CORE68;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	498462	499095	.	+	.	ID=STOP_CORE69;Note=START_CORE1968+:STOP_CORE1969+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	498462	498704	.	+	.	Name=CL_1968;Parent=STOP_CORE69;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	498973	499095	.	+	.	Name=CL_1969;Parent=STOP_CORE69;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	253165	253321	.	+	.	ID=Break70;Note=START_CORE1207+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	253165	253321	.	+	.	Name=CL_1207;Parent=Break70;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	549293	550090	.	+	.	ID=Break71;Note=START_CORE1216+:8214+:1215-:7030-;Contig=1;Genome=E00031;Name=Break Insertion;Genes=8214, 1215, 
+1	PanOCT	Break_Cluster	549293	549520	.	+	.	Name=CL_1216+;Parent=Break71;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	260857	261526	.	+	.	ID=U_CORE72;Note=START_CORE1227+:5922+:U_CORE1230-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=5922, 
+1	PanOCT	U_CORE_Cluster	260857	261146	.	+	.	Name=CL_1227;Parent=U_CORE72;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	261309	261526	.	+	.	Name=CL_1230;Parent=U_CORE72;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	995231	995408	.	+	.	ID=Break73;Note=START_CORE1871-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	995231	995408	.	+	.	Name=CL_1871;Parent=Break73;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	42564	43871	.	+	.	ID=STOP_CORE74;Note=START_CORE569-:STOP_CORE570-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	42564	43036	.	+	.	Name=CL_569;Parent=STOP_CORE74;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	43556	43871	.	+	.	Name=CL_570;Parent=STOP_CORE74;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	127165	127519	.	+	.	ID=Break75;Note=START_CORE119-;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	127165	127519	.	+	.	Name=CL_119;Parent=Break75;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	64093	65079	.	+	.	ID=STOP_CORE76;Note=START_CORE638-:639-:STOP_CORE640+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=639, 
+1	PanOCT	STOP_CORE_Cluster	64093	64228	.	+	.	Name=CL_638;Parent=STOP_CORE76;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	64851	65079	.	+	.	Name=CL_640;Parent=STOP_CORE76;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	897165	897636	.	+	.	ID=Break77;Note=START_CORE3354-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	897165	897636	.	+	.	Name=CL_3354;Parent=Break77;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	182171	182419	.	+	.	ID=Break78;Note=START_CORE960+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	182171	182419	.	+	.	Name=CL_960;Parent=Break78;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	662621	662754	.	+	.	ID=Break79;Note=START_CORE2714+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	662621	662754	.	+	.	Name=CL_2714;Parent=Break79;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1108262	1108808	.	+	.	ID=Break80;Note=START_CORE3910+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1108262	1108808	.	+	.	Name=CL_3910;Parent=Break80;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	100685	103472	.	+	.	ID=STOP_CORE81;Note=START_CORE753+:STOP_CORE762+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	100685	101001	.	+	.	Name=CL_753;Parent=STOP_CORE81;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	103199	103472	.	+	.	Name=CL_762;Parent=STOP_CORE81;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	541260	541346	.	+	.	ID=Break82;Note=START_CORE2101+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	541260	541346	.	+	.	Name=CL_2101;Parent=Break82;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	180696	181185	.	+	.	ID=Break83;Note=START_CORE4741-;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	180696	181185	.	+	.	Name=CL_4741;Parent=Break83;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	Break	1214281	1214427	.	+	.	ID=Break84;Note=START_CORE4118+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1214281	1214427	.	+	.	Name=CL_4118;Parent=Break84;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	250391	545191	.	+	.	ID=U_CORE85;Note=START_CORE1197-:1196-:1195-:1194-:1193-:1192-:1191-:5920-:5919-:5918-:5917-:8287-:8286-:8285-:8284-:8283-:8282-:8281-:8280-:8279-:8278-:8277-:8276-:8275-:8274-:8273-:8272-:8271-:8270-:8269-:8268+:8267+:8266+:8265+:8264+:8263+:8262+:8261+:8260+:8259+:8258+:8257+:8256+:8255+:8254+:8253+:8252+:8251+:8250+:8249+:8248+:8247+:U_CORE2117-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=1196, 1195, 1194, 1193, 1192, 1191, 5920, 5919, 5918, 5917, 8287, 8286, 8285, 8284, 8283, 8282, 8281, 8280, 8279, 8278, 8277, 8276, 8275, 8274, 8273, 8272, 8271, 8270, 8269, 8268, 8267, 8266, 8265, 8264, 8263, 8262, 8261, 8260, 8259, 8258, 8257, 8256, 8255, 8254, 8253, 8252, 8251, 8250, 8249, 8248, 8247, 
+1	PanOCT	U_CORE_Cluster	250391	250517	.	+	.	Name=CL_1197;Parent=U_CORE85;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	544852	545191	.	+	.	Name=CL_2117;Parent=U_CORE85;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	509334	509400	.	+	.	ID=Break86;Note=START_CORE1994-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	509334	509400	.	+	.	Name=CL_1994;Parent=Break86;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	601384	601545	.	+	.	ID=Break87;Note=START_CORE2540+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	601384	601545	.	+	.	Name=CL_2540;Parent=Break87;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+4	PanOCT	Break	13732	14066	.	+	.	ID=Break88;Note=START_CORE3976-;Contig=4;Genome=E00031;Name=Break Insertion
+4	PanOCT	Break_Cluster	13732	14066	.	+	.	Name=CL_3976;Parent=Break88;Note=Core Cluster; Contig=4;Genome=E00031;Index=1
+1	PanOCT	Break	579216	579417	.	+	.	ID=Break89;Note=START_CORE2200-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	579216	579417	.	+	.	Name=CL_2200;Parent=Break89;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	1090171	1095765	.	+	.	ID=U_CORE90;Note=START_CORE3868+:8027+:8026+:5555+:5556+:8025+:8024+:5427+:8023+:8022-:8021-:8020+:8019+:8018+:8017+:8016-:8015-:8014+:8013-:8012-:8011+:8010+:8009+:8008+:8007-:8006-:8005-:8004-:8003-:U_CORE3846+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8027, 8026, 5555, 5556, 8025, 8024, 5427, 8023, 8022, 8021, 8020, 8019, 8018, 8017, 8016, 8015, 8014, 8013, 8012, 8011, 8010, 8009, 8008, 8007, 8006, 8005, 8004, 8003, 
+1	PanOCT	U_CORE_Cluster	1090171	1090247	.	+	.	Name=CL_3868;Parent=U_CORE90;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1095519	1095765	.	+	.	Name=CL_3846;Parent=U_CORE90;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	979284	1026314	.	+	.	ID=U_CORE91;Note=START_CORE3593+:8324-:8323+:8322-:8321-:8320-:8319+:8318+:8317+:8316+:8315+:8314+:8313+:8312-:8311-:8310+:8309+:8308+:8307-:8306-:8305-:8304+:8303+:U_CORE3663+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8324, 8323, 8322, 8321, 8320, 8319, 8318, 8317, 8316, 8315, 8314, 8313, 8312, 8311, 8310, 8309, 8308, 8307, 8306, 8305, 8304, 8303, 
+1	PanOCT	U_CORE_Cluster	979284	979444	.	+	.	Name=CL_3593;Parent=U_CORE91;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1025915	1026314	.	+	.	Name=CL_3663;Parent=U_CORE91;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	339108	340485	.	+	.	ID=STOP_CORE92;Note=START_CORE1455-:1456-:STOP_CORE1457-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1456, 
+1	PanOCT	STOP_CORE_Cluster	339108	339437	.	+	.	Name=CL_1455;Parent=STOP_CORE92;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	340261	340485	.	+	.	Name=CL_1457;Parent=STOP_CORE92;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	85851	86908	.	+	.	ID=STOP_CORE93;Note=START_CORE710+:711-:STOP_CORE712-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=711, 
+1	PanOCT	STOP_CORE_Cluster	85851	86111	.	+	.	Name=CL_710;Parent=STOP_CORE93;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	86397	86908	.	+	.	Name=CL_712;Parent=STOP_CORE93;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	201457	202455	.	+	.	ID=STOP_CORE94;Note=START_CORE4676-:4675-:STOP_CORE4674-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion;Genes=4675, 
+2	PanOCT	STOP_CORE_Cluster	201457	201614	.	+	.	Name=CL_4676;Parent=STOP_CORE94;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	202060	202455	.	+	.	Name=CL_4674;Parent=STOP_CORE94;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	Break	253442	254267	.	+	.	ID=Break95;Note=START_CORE1209+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	253442	254267	.	+	.	Name=CL_1209;Parent=Break95;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	114803	115446	.	+	.	ID=STOP_CORE96;Note=START_CORE790+:STOP_CORE792-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	114803	115195	.	+	.	Name=CL_790;Parent=STOP_CORE96;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	115245	115446	.	+	.	Name=CL_792;Parent=STOP_CORE96;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	413690	414698	.	+	.	ID=STOP_CORE97;Note=START_CORE1674+:1675+:1676+:STOP_CORE1677-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1675, 1676, 
+1	PanOCT	STOP_CORE_Cluster	413690	413996	.	+	.	Name=CL_1674;Parent=STOP_CORE97;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	414258	414698	.	+	.	Name=CL_1677;Parent=STOP_CORE97;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	606062	607176	.	+	.	ID=STOP_CORE98;Note=START_CORE2553+:STOP_CORE2556+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	606062	606387	.	+	.	Name=CL_2553;Parent=STOP_CORE98;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	606874	607176	.	+	.	Name=CL_2556;Parent=STOP_CORE98;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	570703	577686	.	+	.	ID=STOP_CORE99;Note=START_CORE2190-:2191+:STOP_CORE2192+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=2191, 
+1	PanOCT	STOP_CORE_Cluster	570703	570950	.	+	.	Name=CL_2190;Parent=STOP_CORE99;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	576965	577686	.	+	.	Name=CL_2192;Parent=STOP_CORE99;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1310688	1310752	.	+	.	ID=Break100;Note=START_CORE4406-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1310688	1310752	.	+	.	Name=CL_4406;Parent=Break100;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1327422	1328838	.	+	.	ID=STOP_CORE101;Note=START_CORE4466+:STOP_CORE4468+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	1327422	1327714	.	+	.	Name=CL_4466;Parent=STOP_CORE101;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1328299	1328838	.	+	.	Name=CL_4468;Parent=STOP_CORE101;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	897701	898604	.	+	.	ID=Break102;Note=START_CORE3356-:7831+:7832+:7833+:7834+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=7831, 7832, 7833, 
+1	PanOCT	Break_Cluster	897701	897814	.	+	.	Name=CL_3356-;Parent=Break102;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	214595	215183	.	+	.	ID=STOP_CORE103;Note=START_CORE1059+:STOP_CORE1060-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	214595	214727	.	+	.	Name=CL_1059;Parent=STOP_CORE103;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	214952	215183	.	+	.	Name=CL_1060;Parent=STOP_CORE103;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	10835	11121	.	+	.	ID=Break104;Note=START_CORE41+;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	10835	11121	.	+	.	Name=CL_41;Parent=Break104;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	261526	262211	.	+	.	ID=STOP_CORE105;Note=START_CORE1231-:1232-:STOP_CORE1233+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1232, 
+1	PanOCT	STOP_CORE_Cluster	261526	261648	.	+	.	Name=CL_1231;Parent=STOP_CORE105;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	261844	262211	.	+	.	Name=CL_1233;Parent=STOP_CORE105;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	253165	253321	.	+	.	ID=Break106;Note=START_CORE1207-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	253165	253321	.	+	.	Name=CL_1207;Parent=Break106;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	255623	255930	.	+	.	ID=Break107;Note=START_CORE1212+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	255623	255930	.	+	.	Name=CL_1212;Parent=Break107;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	19261	19467	.	+	.	ID=Break108;Note=START_CORE449-;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	19261	19467	.	+	.	Name=CL_449;Parent=Break108;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	U_CORE	528741	549520	.	+	.	ID=U_CORE109;Note=START_CORE1216-:8215-:U_CORE2061-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8215, 
+1	PanOCT	U_CORE_Cluster	528741	528991	.	+	.	Name=CL_1216;Parent=U_CORE109;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	549293	549520	.	+	.	Name=CL_2061;Parent=U_CORE109;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1355363	1358175	.	+	.	ID=STOP_CORE110;Note=START_CORE4549+:4550-:4551-:4552-:4553-:4554-:4555-:4556-:STOP_CORE4557-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=4550, 4551, 4552, 4553, 4554, 4555, 4556, 
+1	PanOCT	STOP_CORE_Cluster	1355363	1355560	.	+	.	Name=CL_4549;Parent=STOP_CORE110;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1358007	1358175	.	+	.	Name=CL_4557;Parent=STOP_CORE110;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	765454	765762	.	+	.	ID=Break111;Note=START_CORE2982-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	765454	765762	.	+	.	Name=CL_2982;Parent=Break111;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1027416	1029729	.	+	.	ID=STOP_CORE112;Note=START_CORE5591-:STOP_CORE3669-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	1027416	1027659	.	+	.	Name=CL_5591;Parent=STOP_CORE112;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1029270	1029729	.	+	.	Name=CL_3669;Parent=STOP_CORE112;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	720958	722299	.	+	.	ID=STOP_CORE113;Note=START_CORE2845+:7803-:7804+:STOP_CORE2847+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7803, 7804, 
+1	PanOCT	STOP_CORE_Cluster	720958	721294	.	+	.	Name=CL_2845;Parent=STOP_CORE113;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	721739	722299	.	+	.	Name=CL_2847;Parent=STOP_CORE113;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1239879	1243538	.	+	.	ID=Break114;Note=START_CORE4167-:5515-:7996-:7995+:5519+:5520+:5521+:5522+:5523+:5524+:5525+:5526+:7994+:7993+:7992-;Contig=1;Genome=E00031;Name=Break Insertion;Genes=5515, 7996, 7995, 5519, 5520, 5521, 5522, 5523, 5524, 5525, 5526, 7994, 7993, 
+1	PanOCT	Break_Cluster	1239879	1240268	.	+	.	Name=CL_4167-;Parent=Break114;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	141867	145016	.	+	.	ID=STOP_CORE115;Note=START_CORE869+:STOP_CORE874+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	141867	142708	.	+	.	Name=CL_869;Parent=STOP_CORE115;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	144280	145016	.	+	.	Name=CL_874;Parent=STOP_CORE115;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	14683	14976	.	+	.	ID=Break116;Note=START_CORE49-;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	14683	14976	.	+	.	Name=CL_49;Parent=Break116;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1050537	1052677	.	+	.	ID=STOP_CORE117;Note=START_CORE3738+:5584+:5583+:5582+:5581+:STOP_CORE3739-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=5584, 5583, 5582, 5581, 
+1	PanOCT	STOP_CORE_Cluster	1050537	1051227	.	+	.	Name=CL_3738;Parent=STOP_CORE117;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1052563	1052677	.	+	.	Name=CL_3739;Parent=STOP_CORE117;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	261214	261309	.	+	.	ID=Break118;Note=START_CORE1229-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	261214	261309	.	+	.	Name=CL_1229;Parent=Break118;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	10835	11121	.	+	.	ID=Break119;Note=START_CORE41-;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	10835	11121	.	+	.	Name=CL_41;Parent=Break119;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	203134	205159	.	+	.	ID=STOP_CORE120;Note=START_CORE1025+:STOP_CORE1030-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	203134	203616	.	+	.	Name=CL_1025;Parent=STOP_CORE120;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	204963	205159	.	+	.	Name=CL_1030;Parent=STOP_CORE120;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	738548	739437	.	+	.	ID=STOP_CORE121;Note=START_CORE2901+:7807-:STOP_CORE2903-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7807, 
+1	PanOCT	STOP_CORE_Cluster	738548	738874	.	+	.	Name=CL_2901;Parent=STOP_CORE121;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	739325	739437	.	+	.	Name=CL_2903;Parent=STOP_CORE121;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	275285	275588	.	+	.	ID=Break122;Note=START_CORE1266-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	275285	275588	.	+	.	Name=CL_1266;Parent=Break122;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	81858	82571	.	+	.	ID=STOP_CORE123;Note=START_CORE694-:695+:STOP_CORE696+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=695, 
+1	PanOCT	STOP_CORE_Cluster	81858	82116	.	+	.	Name=CL_694;Parent=STOP_CORE123;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	82361	82571	.	+	.	Name=CL_696;Parent=STOP_CORE123;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	286014	286688	.	+	.	ID=STOP_CORE124;Note=START_CORE1295+:5366+:STOP_CORE1296-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=5366, 
+1	PanOCT	STOP_CORE_Cluster	286014	286352	.	+	.	Name=CL_1295;Parent=STOP_CORE124;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	286508	286688	.	+	.	Name=CL_1296;Parent=STOP_CORE124;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1324023	1324109	.	+	.	ID=Break125;Note=START_CORE4454-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1324023	1324109	.	+	.	Name=CL_4454;Parent=Break125;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	255930	545650	.	+	.	ID=U_CORE126;Note=START_CORE1213-:7608+:U_CORE2118+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=7608, 
+1	PanOCT	U_CORE_Cluster	255930	256050	.	+	.	Name=CL_1213;Parent=U_CORE126;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	545191	545650	.	+	.	Name=CL_2118;Parent=U_CORE126;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	251461	251708	.	+	.	ID=Break127;Note=START_CORE1202-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	251461	251708	.	+	.	Name=CL_1202;Parent=Break127;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	770500	780332	.	+	.	ID=Break128;Note=START_CORE2985+:5235-:5236-:8079-:8078-:8077-:8076-:8075-:8074-:8073-:8072-:8071-:8070-:8069-:8068-:8067+:8066+:8065+:8064+:8063-:8062+:5183+:8061+:8060+:8059+:8058+:8057+:8056+:8055+:8054+:8053+:7274+:8052+:8051+:8050+:8049+:1857+:1858+:1860+:1861+:1862+:8048+:1864+:1865+:7285+:7286+:8047+:8046+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=5235, 5236, 8079, 8078, 8077, 8076, 8075, 8074, 8073, 8072, 8071, 8070, 8069, 8068, 8067, 8066, 8065, 8064, 8063, 8062, 5183, 8061, 8060, 8059, 8058, 8057, 8056, 8055, 8054, 8053, 7274, 8052, 8051, 8050, 8049, 1857, 1858, 1860, 1861, 1862, 8048, 1864, 1865, 7285, 7286, 8047, 
+1	PanOCT	Break_Cluster	770500	770682	.	+	.	Name=CL_2985+;Parent=Break128;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1369584	1369700	.	+	.	ID=Break129;Note=START_CORE4583+:6815-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1369584	1369700	.	+	.	Name=CL_4583+;Parent=Break129;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	703355	707683	.	+	.	ID=STOP_CORE130;Note=START_CORE2809+:7763-:5289-:5288-:5287-:7764-:7765-:7766-:7767-:7768-:7769-:7770-:7771-:7772-:7773-:7774-:7775-:7776-:7777-:7778-:7779-:7780-:7781-:7782-:7783-:7784-:7785-:7786-:7787-:STOP_CORE2817-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7763, 5289, 5288, 5287, 7764, 7765, 7766, 7767, 7768, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7780, 7781, 7782, 7783, 7784, 7785, 7786, 7787, 
+1	PanOCT	STOP_CORE_Cluster	703355	703719	.	+	.	Name=CL_2809;Parent=STOP_CORE130;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	707537	707683	.	+	.	Name=CL_2817;Parent=STOP_CORE130;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	639814	641638	.	+	.	ID=STOP_CORE131;Note=START_CORE2657-:7739-:7740-:7741-:7742+:7743-:STOP_CORE2658+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7739, 7740, 7741, 7742, 7743, 
+1	PanOCT	STOP_CORE_Cluster	639814	639879	.	+	.	Name=CL_2657;Parent=STOP_CORE131;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	641327	641638	.	+	.	Name=CL_2658;Parent=STOP_CORE131;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	566543	568521	.	+	.	ID=STOP_CORE132;Note=START_CORE2181+:2182-:STOP_CORE2183-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=2182, 
+1	PanOCT	STOP_CORE_Cluster	566543	567843	.	+	.	Name=CL_2181;Parent=STOP_CORE132;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	568062	568521	.	+	.	Name=CL_2183;Parent=STOP_CORE132;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	794478	795545	.	+	.	ID=STOP_CORE133;Note=START_CORE3058+:8141+:5233-:8142+:STOP_CORE3059-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=8141, 5233, 8142, 
+1	PanOCT	STOP_CORE_Cluster	794478	794962	.	+	.	Name=CL_3058;Parent=STOP_CORE133;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	795434	795545	.	+	.	Name=CL_3059;Parent=STOP_CORE133;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	543421	919470	.	+	.	ID=U_CORE134;Note=START_CORE2110+:2109+:8246-:5962-:5961-:8245-:8244-:8243-:5958-:8242-:8241+:8240+:8239+:8238-:U_CORE3425-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=2109, 8246, 5962, 5961, 8245, 8244, 8243, 5958, 8242, 8241, 8240, 8239, 8238, 
+1	PanOCT	U_CORE_Cluster	543421	543522	.	+	.	Name=CL_2110;Parent=U_CORE134;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	919192	919470	.	+	.	Name=CL_3425;Parent=U_CORE134;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	1107588	1113139	.	+	.	ID=U_CORE135;Note=START_CORE3908+:3909+:U_CORE3925-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=3909, 
+1	PanOCT	U_CORE_Cluster	1107588	1107840	.	+	.	Name=CL_3908;Parent=U_CORE135;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1112833	1113139	.	+	.	Name=CL_3925;Parent=U_CORE135;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	447325	448268	.	+	.	ID=STOP_CORE136;Note=START_CORE1789+:1790+:STOP_CORE1791-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1790, 
+1	PanOCT	STOP_CORE_Cluster	447325	447732	.	+	.	Name=CL_1789;Parent=STOP_CORE136;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	447895	448268	.	+	.	Name=CL_1791;Parent=STOP_CORE136;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	552894	552951	.	+	.	ID=Break137;Note=START_CORE2138+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	552894	552951	.	+	.	Name=CL_2138;Parent=Break137;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1138372	1139908	.	+	.	ID=STOP_CORE138;Note=START_CORE4079-:4080-:STOP_CORE4081-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=4080, 
+1	PanOCT	STOP_CORE_Cluster	1138372	1138708	.	+	.	Name=CL_4079;Parent=STOP_CORE138;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1138817	1139908	.	+	.	Name=CL_4081;Parent=STOP_CORE138;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	830395	831506	.	+	.	ID=U_CORE139;Note=START_CORE3148-:8153+:8154+:8155-:8156-:8157+:U_CORE3164+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8153, 8154, 8155, 8156, 8157, 
+1	PanOCT	U_CORE_Cluster	830395	830651	.	+	.	Name=CL_3148;Parent=U_CORE139;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	831048	831506	.	+	.	Name=CL_3164;Parent=U_CORE139;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	471051	474171	.	+	.	ID=STOP_CORE140;Note=START_CORE1887+:STOP_CORE1888-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	471051	471686	.	+	.	Name=CL_1887;Parent=STOP_CORE140;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	473724	474171	.	+	.	Name=CL_1888;Parent=STOP_CORE140;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	242437	775225	.	+	.	ID=U_CORE141;Note=START_CORE1150+:8127+:8128+:8129+:8130+:8131+:8132+:8133+:8134+:8135+:U_CORE3002-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8127, 8128, 8129, 8130, 8131, 8132, 8133, 8134, 8135, 
+1	PanOCT	U_CORE_Cluster	242437	242509	.	+	.	Name=CL_1150;Parent=U_CORE141;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	775121	775225	.	+	.	Name=CL_3002;Parent=U_CORE141;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	61696	63554	.	+	.	ID=STOP_CORE142;Note=START_CORE635+:STOP_CORE636-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	61696	62160	.	+	.	Name=CL_635;Parent=STOP_CORE142;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	63281	63554	.	+	.	Name=CL_636;Parent=STOP_CORE142;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	106053	116500	.	+	.	ID=STOP_CORE143;Note=START_CORE184-:7983+:5756-:STOP_CORE153+;Contig=2;Genome=E00031;Name=STOP_CORE Insertion;Genes=7983, 5756, 
+2	PanOCT	STOP_CORE_Cluster	106053	106516	.	+	.	Name=CL_184;Parent=STOP_CORE143;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	116387	116500	.	+	.	Name=CL_153;Parent=STOP_CORE143;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	U_CORE	615495	616321	.	+	.	ID=U_CORE144;Note=START_CORE2581-:2582+:U_CORE2584+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=2582, 
+1	PanOCT	U_CORE_Cluster	615495	615794	.	+	.	Name=CL_2581;Parent=U_CORE144;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	616250	616321	.	+	.	Name=CL_2584;Parent=U_CORE144;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	687639	688460	.	+	.	ID=STOP_CORE145;Note=START_CORE2766-:STOP_CORE2767-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	687639	688182	.	+	.	Name=CL_2766;Parent=STOP_CORE145;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	688245	688460	.	+	.	Name=CL_2767;Parent=STOP_CORE145;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	U_CORE	116387	119931	.	+	.	ID=U_CORE146;Note=START_CORE153+:7982+:7981-:7980-:U_CORE141-;Contig=2;Genome=E00031;Name=U_CORE Insertion;Genes=7982, 7981, 7980, 
+2	PanOCT	U_CORE_Cluster	116387	116500	.	+	.	Name=CL_153;Parent=U_CORE146;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	U_CORE_Cluster	119757	119931	.	+	.	Name=CL_141;Parent=U_CORE146;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	Break	126105	126335	.	+	.	ID=Break147;Note=START_CORE121+;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	126105	126335	.	+	.	Name=CL_121;Parent=Break147;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	U_CORE	240957	256664	.	+	.	ID=U_CORE148;Note=START_CORE1217-:8181-:8182-:8183-:8184-:U_CORE1141+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8181, 8182, 8183, 8184, 
+1	PanOCT	U_CORE_Cluster	240957	241177	.	+	.	Name=CL_1217;Parent=U_CORE148;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	256573	256664	.	+	.	Name=CL_1141;Parent=U_CORE148;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	656560	657932	.	+	.	ID=STOP_CORE149;Note=START_CORE2695-:2696-:STOP_CORE2697-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=2696, 
+1	PanOCT	STOP_CORE_Cluster	656560	657319	.	+	.	Name=CL_2695;Parent=STOP_CORE149;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	657670	657932	.	+	.	Name=CL_2697;Parent=STOP_CORE149;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	253442	254267	.	+	.	ID=Break150;Note=START_CORE1209-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	253442	254267	.	+	.	Name=CL_1209;Parent=Break150;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	88014	89110	.	+	.	ID=STOP_CORE151;Note=START_CORE716+:STOP_CORE717-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	88014	88253	.	+	.	Name=CL_716;Parent=STOP_CORE151;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	88772	89110	.	+	.	Name=CL_717;Parent=STOP_CORE151;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	652584	892388	.	+	.	ID=U_CORE152;Note=START_CORE3339-:U_CORE2683+;Contig=1;Genome=E00031;Name=U_CORE Insertion
+1	PanOCT	U_CORE_Cluster	652584	652747	.	+	.	Name=CL_3339;Parent=U_CORE152;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	892083	892388	.	+	.	Name=CL_2683;Parent=U_CORE152;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1123240	1123477	.	+	.	ID=Break153;Note=START_CORE3960+:8034+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1123240	1123477	.	+	.	Name=CL_3960+;Parent=Break153;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	14347	14606	.	+	.	ID=Break154;Note=START_CORE47+;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	14347	14606	.	+	.	Name=CL_47;Parent=Break154;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	50412	51148	.	+	.	ID=STOP_CORE155;Note=START_CORE587-:STOP_CORE590-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	50412	50664	.	+	.	Name=CL_587;Parent=STOP_CORE155;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	50814	51148	.	+	.	Name=CL_590;Parent=STOP_CORE155;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	189564	189965	.	+	.	ID=STOP_CORE156;Note=START_CORE4706+:STOP_CORE4705-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion
+2	PanOCT	STOP_CORE_Cluster	189564	189634	.	+	.	Name=CL_4706;Parent=STOP_CORE156;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	189860	189965	.	+	.	Name=CL_4705;Parent=STOP_CORE156;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	27631	30625	.	+	.	ID=STOP_CORE157;Note=START_CORE534-:STOP_CORE535-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	27631	28076	.	+	.	Name=CL_534;Parent=STOP_CORE157;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	30412	30625	.	+	.	Name=CL_535;Parent=STOP_CORE157;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	117076	117369	.	+	.	ID=Break158;Note=START_CORE150+;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	117076	117369	.	+	.	Name=CL_150;Parent=Break158;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	268596	270035	.	+	.	ID=STOP_CORE159;Note=START_CORE1249+:STOP_CORE5368+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	268596	268747	.	+	.	Name=CL_1249;Parent=STOP_CORE159;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	269742	270035	.	+	.	Name=CL_5368;Parent=STOP_CORE159;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	60525	61248	.	+	.	ID=Break160;Note=START_CORE631+:629+:8430-:8429-:8428-;Contig=1;Genome=E00031;Name=Break Insertion;Genes=629, 8430, 8429, 
+1	PanOCT	Break_Cluster	60525	60858	.	+	.	Name=CL_631+;Parent=Break160;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	897701	898458	.	+	.	ID=STOP_CORE161;Note=START_CORE3356+:3357-:STOP_CORE3358+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=3357, 
+1	PanOCT	STOP_CORE_Cluster	897701	897814	.	+	.	Name=CL_3356;Parent=STOP_CORE161;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	898127	898458	.	+	.	Name=CL_3358;Parent=STOP_CORE161;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1207063	1207440	.	+	.	ID=Break162;Note=START_CORE4094-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1207063	1207440	.	+	.	Name=CL_4094;Parent=Break162;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	1025915	1026921	.	+	.	ID=U_CORE163;Note=START_CORE3663+:8302-:U_CORE3666-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8302, 
+1	PanOCT	U_CORE_Cluster	1025915	1026314	.	+	.	Name=CL_3663;Parent=U_CORE163;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1026528	1026921	.	+	.	Name=CL_3666;Parent=U_CORE163;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	137025	137225	.	+	.	ID=Break164;Note=START_CORE853+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	137025	137225	.	+	.	Name=CL_853;Parent=Break164;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	454514	464650	.	+	.	ID=Break165;Note=START_CORE1815-:1816-:1817-:7904-:7903-:7902-:7901-:7900-:7899-:7898-:1824-:7897-:1825-:1826+:1827+:1828+:1829+:1830+:1831+:1832+:1833+:1834+:7896+:1836+:7260+:1839+:1840+:1841+:7895+:7894+:7893+:7892+:7891+:7890+:7889+:7888+:7438+:7437+:7887+:7886+:7885+:7884+:7883+:7882+:7881+:7880+:7879+:7878+:7877+:7876+:7875+:7317+:7874+:7873+:7872+;Contig=1;Genome=E00031;Name=Break Insertion;Genes=1816, 1817, 7904, 7903, 7902, 7901, 7900, 7899, 7898, 1824, 7897, 1825, 1826, 1827, 1828, 1829, 1830, 1831, 1832, 1833, 1834, 7896, 1836, 7260, 1839, 1840, 1841, 7895, 7894, 7893, 7892, 7891, 7890, 7889, 7888, 7438, 7437, 7887, 7886, 7885, 7884, 7883, 7882, 7881, 7880, 7879, 7878, 7877, 7876, 7875, 7317, 7874, 7873, 
+1	PanOCT	Break_Cluster	454514	454680	.	+	.	Name=CL_1815-;Parent=Break165;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	543421	544042	.	+	.	ID=STOP_CORE166;Note=START_CORE2110-:STOP_CORE2112+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	543421	543522	.	+	.	Name=CL_2110;Parent=STOP_CORE166;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	543806	544042	.	+	.	Name=CL_2112;Parent=STOP_CORE166;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1285975	1288956	.	+	.	ID=STOP_CORE167;Note=START_CORE4310+:5512-:5510-:5509-:STOP_CORE4318-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=5512, 5510, 5509, 
+1	PanOCT	STOP_CORE_Cluster	1285975	1286447	.	+	.	Name=CL_4310;Parent=STOP_CORE167;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1288791	1288956	.	+	.	Name=CL_4318;Parent=STOP_CORE167;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	412346	413361	.	+	.	ID=STOP_CORE168;Note=START_CORE1663+:1664-:1665+:7919-:1666-:STOP_CORE1667+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1664, 1665, 7919, 1666, 
+1	PanOCT	STOP_CORE_Cluster	412346	412512	.	+	.	Name=CL_1663;Parent=STOP_CORE168;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	412948	413361	.	+	.	Name=CL_1667;Parent=STOP_CORE168;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	174507	176155	.	+	.	ID=STOP_CORE169;Note=START_CORE4760+:STOP_CORE4755-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion
+2	PanOCT	STOP_CORE_Cluster	174507	174577	.	+	.	Name=CL_4760;Parent=STOP_CORE169;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	176048	176155	.	+	.	Name=CL_4755;Parent=STOP_CORE169;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	192550	193907	.	+	.	ID=STOP_CORE170;Note=START_CORE4699-:5767-:STOP_CORE4698-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion;Genes=5767, 
+2	PanOCT	STOP_CORE_Cluster	192550	192770	.	+	.	Name=CL_4699;Parent=STOP_CORE170;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	193024	193907	.	+	.	Name=CL_4698;Parent=STOP_CORE170;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	Break	381627	384679	.	+	.	ID=Break171;Note=START_CORE1580+:7957+:7958+:7959-:7960-:7961-:7962-:7963-:7964-:7965-;Contig=1;Genome=E00031;Name=Break Insertion;Genes=7957, 7958, 7959, 7960, 7961, 7962, 7963, 7964, 
+1	PanOCT	Break_Cluster	381627	381699	.	+	.	Name=CL_1580+;Parent=Break171;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	U_CORE	233799	1359290	.	+	.	ID=U_CORE172;Note=START_CORE4592+:8295-:6188-:6187+:6186-:8294+:U_CORE4561+;Contig=2;Genome=E00031;Name=U_CORE Insertion;Genes=8295, 6188, 6187, 6186, 8294, 
+2	PanOCT	U_CORE_Cluster	233799	234199	.	+	.	Name=CL_4592;Parent=U_CORE172;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	U_CORE_Cluster	1358949	1359290	.	+	.	Name=CL_4561;Parent=U_CORE172;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	U_CORE	1214177	1219189	.	+	.	ID=U_CORE173;Note=START_CORE4129+:4128-:4127+:4126+:4125+:4124+:4123+:U_CORE4117-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=4128, 4127, 4126, 4125, 4124, 4123, 
+1	PanOCT	U_CORE_Cluster	1214177	1214281	.	+	.	Name=CL_4129;Parent=U_CORE173;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1218559	1219189	.	+	.	Name=CL_4117;Parent=U_CORE173;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	51541	54871	.	+	.	ID=Break174;Note=START_CORE593+:8206+:8207+:8208+:8209-:8210-:8211-:8212-:8213-;Contig=1;Genome=E00031;Name=Break Insertion;Genes=8206, 8207, 8208, 8209, 8210, 8211, 8212, 
+1	PanOCT	Break_Cluster	51541	51781	.	+	.	Name=CL_593+;Parent=Break174;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1026413	1026528	.	+	.	ID=Break175;Note=START_CORE3665-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1026413	1026528	.	+	.	Name=CL_3665;Parent=Break175;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	71200	71669	.	+	.	ID=STOP_CORE176;Note=START_CORE657+:STOP_CORE658+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	71200	71307	.	+	.	Name=CL_657;Parent=STOP_CORE176;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	71438	71669	.	+	.	Name=CL_658;Parent=STOP_CORE176;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	242437	775121	.	+	.	ID=U_CORE177;Note=START_CORE1150-:8126-:8125-:8124-:1155-:8123-:8122-:8121-:5901-:8120+:5412+:8119-:5407-:5406+:8118+:8117+:8116+:1165+:8115+:8114+:8113+:1174+:5396+:8112+:8111+:8110+:8109+:8108+:8107+:8106+:8105+:8104+:8103+:8102+:8101+:8100+:8099+:8098+:8097+:8096+:8095+:8094+:8093+:8092+:8091+:8090+:8089+:8088+:8087+:8086+:8085-:8084+:8083+:8082+:8081+:U_CORE3001+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8126, 8125, 8124, 1155, 8123, 8122, 8121, 5901, 8120, 5412, 8119, 5407, 5406, 8118, 8117, 8116, 1165, 8115, 8114, 8113, 1174, 5396, 8112, 8111, 8110, 8109, 8108, 8107, 8106, 8105, 8104, 8103, 8102, 8101, 8100, 8099, 8098, 8097, 8096, 8095, 8094, 8093, 8092, 8091, 8090, 8089, 8088, 8087, 8086, 8085, 8084, 8083, 8082, 8081, 
+1	PanOCT	U_CORE_Cluster	242437	242509	.	+	.	Name=CL_1150;Parent=U_CORE177;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	774984	775121	.	+	.	Name=CL_3001;Parent=U_CORE177;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	U_CORE	120627	129277	.	+	.	ID=U_CORE178;Note=START_CORE137+:7979-:7978-:7977-:7976+:7975-:7974-:7973-:7972-:7971-:7970-:7969-:7968-:7967-:U_CORE112-;Contig=2;Genome=E00031;Name=U_CORE Insertion;Genes=7979, 7978, 7977, 7976, 7975, 7974, 7973, 7972, 7971, 7970, 7969, 7968, 7967, 
+2	PanOCT	U_CORE_Cluster	120627	120989	.	+	.	Name=CL_137;Parent=U_CORE178;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	U_CORE_Cluster	129138	129277	.	+	.	Name=CL_112;Parent=U_CORE178;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	U_CORE	507147	510012	.	+	.	ID=U_CORE179;Note=START_CORE1993-:U_CORE1996-;Contig=1;Genome=E00031;Name=U_CORE Insertion
+1	PanOCT	U_CORE_Cluster	507147	507678	.	+	.	Name=CL_1993;Parent=U_CORE179;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	509555	510012	.	+	.	Name=CL_1996;Parent=U_CORE179;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1020911	1024718	.	+	.	ID=Break180;Note=START_CORE3660-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1020911	1024718	.	+	.	Name=CL_3660;Parent=Break180;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+4	PanOCT	Break	32091	32439	.	+	.	ID=Break181;Note=START_CORE3981-:3982-:3983-:2470+;Contig=4;Genome=E00031;Name=Break Insertion;Genes=3982, 3983, 
+4	PanOCT	Break_Cluster	32091	32209	.	+	.	Name=CL_3981-;Parent=Break181;Note=Core Cluster; Contig=4;Genome=E00031;Index=1
+1	PanOCT	Break	551313	551392	.	+	.	ID=Break182;Note=START_CORE2132+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	551313	551392	.	+	.	Name=CL_2132;Parent=Break182;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	62159	62475	.	+	.	ID=Break183;Note=START_CORE316-;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	62159	62475	.	+	.	Name=CL_316;Parent=Break183;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	397881	399095	.	+	.	ID=STOP_CORE184;Note=START_CORE1620-:1621-:STOP_CORE1622-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1621, 
+1	PanOCT	STOP_CORE_Cluster	397881	398277	.	+	.	Name=CL_1620;Parent=STOP_CORE184;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	398629	399095	.	+	.	Name=CL_1622;Parent=STOP_CORE184;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	48623	49651	.	+	.	ID=STOP_CORE185;Note=START_CORE354-:5819-:5818-:8037-:8036+:8035-:STOP_CORE351-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion;Genes=5819, 5818, 8037, 8036, 8035, 
+2	PanOCT	STOP_CORE_Cluster	48623	48913	.	+	.	Name=CL_354;Parent=STOP_CORE185;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	49108	49651	.	+	.	Name=CL_351;Parent=STOP_CORE185;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	963845	974252	.	+	.	ID=STOP_CORE186;Note=START_CORE3570-:STOP_CORE3571-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	963845	964135	.	+	.	Name=CL_3570;Parent=STOP_CORE186;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	973879	974252	.	+	.	Name=CL_3571;Parent=STOP_CORE186;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	422844	423271	.	+	.	ID=STOP_CORE187;Note=START_CORE1705-:STOP_CORE1706+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	422844	423060	.	+	.	Name=CL_1705;Parent=STOP_CORE187;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	423120	423271	.	+	.	Name=CL_1706;Parent=STOP_CORE187;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	741268	743678	.	+	.	ID=STOP_CORE188;Note=START_CORE2911+:STOP_CORE2912-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	741268	741660	.	+	.	Name=CL_2911;Parent=STOP_CORE188;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	743465	743678	.	+	.	Name=CL_2912;Parent=STOP_CORE188;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	137040	137959	.	+	.	ID=STOP_CORE189;Note=START_CORE87-:STOP_CORE84-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion
+2	PanOCT	STOP_CORE_Cluster	137040	137602	.	+	.	Name=CL_87;Parent=STOP_CORE189;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	137899	137959	.	+	.	Name=CL_84;Parent=STOP_CORE189;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+4	PanOCT	Break	6404	6444	.	+	.	ID=Break190;Note=START_CORE3975-:3974-;Contig=4;Genome=E00031;Name=Break Insertion
+4	PanOCT	Break_Cluster	6404	6444	.	+	.	Name=CL_3975-;Parent=Break190;Note=Core Cluster; Contig=4;Genome=E00031;Index=1
+1	PanOCT	Break	1214602	1214997	.	+	.	ID=Break191;Note=START_CORE4119+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1214602	1214997	.	+	.	Name=CL_4119;Parent=Break191;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	251461	251708	.	+	.	ID=Break192;Note=START_CORE1202+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	251461	251708	.	+	.	Name=CL_1202;Parent=Break192;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	598409	598839	.	+	.	ID=Break193;Note=START_CORE2263+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	598409	598839	.	+	.	Name=CL_2263;Parent=Break193;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	675740	685351	.	+	.	ID=STOP_CORE194;Note=START_CORE2756+:7758-:7759+:7760+:5291+:STOP_CORE2757-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7758, 7759, 7760, 5291, 
+1	PanOCT	STOP_CORE_Cluster	675740	675838	.	+	.	Name=CL_2756;Parent=STOP_CORE194;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	685140	685351	.	+	.	Name=CL_2757;Parent=STOP_CORE194;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	466762	467299	.	+	.	ID=Break195;Note=START_CORE1874+:1873-:1872-;Contig=1;Genome=E00031;Name=Break Insertion;Genes=1873, 
+1	PanOCT	Break_Cluster	466762	467189	.	+	.	Name=CL_1874+;Parent=Break195;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	546823	553558	.	+	.	ID=U_CORE196;Note=START_CORE2125+:7609+:7610-:7611-:7612+:7613+:U_CORE2139-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=7609, 7610, 7611, 7612, 7613, 
+1	PanOCT	U_CORE_Cluster	546823	547500	.	+	.	Name=CL_2125;Parent=U_CORE196;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	553229	553558	.	+	.	Name=CL_2139;Parent=U_CORE196;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	70270	71307	.	+	.	ID=STOP_CORE197;Note=START_CORE656+:5463-:5462+:STOP_CORE657+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=5463, 5462, 
+1	PanOCT	STOP_CORE_Cluster	70270	70429	.	+	.	Name=CL_656;Parent=STOP_CORE197;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	71200	71307	.	+	.	Name=CL_657;Parent=STOP_CORE197;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	419821	420809	.	+	.	ID=STOP_CORE198;Note=START_CORE1693+:STOP_CORE1695-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	419821	420083	.	+	.	Name=CL_1693;Parent=STOP_CORE198;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	420584	420809	.	+	.	Name=CL_1695;Parent=STOP_CORE198;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	579126	579873	.	+	.	ID=U_CORE199;Note=START_CORE2202-:7659+:7658+:7657+:7656+:7655+:7654+:7653+:7652-:7651+:7650+:U_CORE2199+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=7659, 7658, 7657, 7656, 7655, 7654, 7653, 7652, 7651, 7650, 
+1	PanOCT	U_CORE_Cluster	579126	579216	.	+	.	Name=CL_2202;Parent=U_CORE199;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	579782	579873	.	+	.	Name=CL_2199;Parent=U_CORE199;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	995231	995408	.	+	.	ID=Break200;Note=START_CORE1871+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	995231	995408	.	+	.	Name=CL_1871;Parent=Break200;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	243435	528741	.	+	.	ID=U_CORE201;Note=START_CORE5416+:7858+:7859+:5899+:5898+:7860+:7861+:5893+:7862+:7863+:7864+:7865+:7866+:7867+:U_CORE2060+;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=7858, 7859, 5899, 5898, 7860, 7861, 5893, 7862, 7863, 7864, 7865, 7866, 7867, 
+1	PanOCT	U_CORE_Cluster	243435	243504	.	+	.	Name=CL_5416;Parent=U_CORE201;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	528425	528741	.	+	.	Name=CL_2060;Parent=U_CORE201;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	219988	221897	.	+	.	ID=STOP_CORE202;Note=START_CORE1077+:1078-:1079+:STOP_CORE1080-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1078, 1079, 
+1	PanOCT	STOP_CORE_Cluster	219988	221017	.	+	.	Name=CL_1077;Parent=STOP_CORE202;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	221378	221897	.	+	.	Name=CL_1080;Parent=STOP_CORE202;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	366484	367139	.	+	.	ID=STOP_CORE203;Note=START_CORE1535+:1536-:STOP_CORE1537+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1536, 
+1	PanOCT	STOP_CORE_Cluster	366484	366859	.	+	.	Name=CL_1535;Parent=STOP_CORE203;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	366904	367139	.	+	.	Name=CL_1537;Parent=STOP_CORE203;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	616077	616250	.	+	.	ID=Break204;Note=START_CORE2583-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	616077	616250	.	+	.	Name=CL_2583;Parent=Break204;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	944357	956607	.	+	.	ID=STOP_CORE205;Note=START_CORE3547+:STOP_CORE3546+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	944357	944958	.	+	.	Name=CL_3547;Parent=STOP_CORE205;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	956449	956607	.	+	.	Name=CL_3546;Parent=STOP_CORE205;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	1241711	1245066	.	+	.	ID=U_CORE206;Note=START_CORE4172+:4173+:4174+:4175+:4176+:4177+:4178+:4179+:4180+:7997+:U_CORE4183-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=4173, 4174, 4175, 4176, 4177, 4178, 4179, 4180, 7997, 
+1	PanOCT	U_CORE_Cluster	1241711	1242170	.	+	.	Name=CL_4172;Parent=U_CORE206;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	1244969	1245066	.	+	.	Name=CL_4183;Parent=U_CORE206;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	27428	28076	.	+	.	ID=STOP_CORE207;Note=START_CORE531+:STOP_CORE534-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	27428	27496	.	+	.	Name=CL_531;Parent=STOP_CORE207;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	27631	28076	.	+	.	Name=CL_534;Parent=STOP_CORE207;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	265949	268747	.	+	.	ID=STOP_CORE208;Note=START_CORE1241-:1242+:8180-:8179-:8178-:STOP_CORE5368-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=1242, 8180, 8179, 8178, 
+1	PanOCT	STOP_CORE_Cluster	265949	266322	.	+	.	Name=CL_1241;Parent=STOP_CORE208;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	268596	268747	.	+	.	Name=CL_5368;Parent=STOP_CORE208;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1011195	1011631	.	+	.	ID=Break209;Note=START_CORE3649+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1011195	1011631	.	+	.	Name=CL_3649;Parent=Break209;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	880322	880928	.	+	.	ID=STOP_CORE210;Note=START_CORE3300-:3301-:STOP_CORE3302+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=3301, 
+1	PanOCT	STOP_CORE_Cluster	880322	880505	.	+	.	Name=CL_3300;Parent=STOP_CORE210;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	880719	880928	.	+	.	Name=CL_3302;Parent=STOP_CORE210;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1207063	1207440	.	+	.	ID=Break211;Note=START_CORE4094+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1207063	1207440	.	+	.	Name=CL_4094;Parent=Break211;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	25456	28459	.	+	.	ID=STOP_CORE212;Note=START_CORE427-:STOP_CORE419-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion
+2	PanOCT	STOP_CORE_Cluster	25456	25563	.	+	.	Name=CL_427;Parent=STOP_CORE212;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	27700	28459	.	+	.	Name=CL_419;Parent=STOP_CORE212;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+3	PanOCT	Break	11941	12126	.	+	.	ID=Break213;Note=START_CORE42+;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	11941	12126	.	+	.	Name=CL_42;Parent=Break213;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	Break	642422	642745	.	+	.	ID=Break214;Note=START_CORE2662-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	642422	642745	.	+	.	Name=CL_2662;Parent=Break214;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	380719	381478	.	+	.	ID=Break215;Note=START_CORE1579+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	380719	381478	.	+	.	Name=CL_1579;Parent=Break215;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	541814	541917	.	+	.	ID=Break216;Note=START_CORE2105+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	541814	541917	.	+	.	Name=CL_2105;Parent=Break216;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1140291	1140389	.	+	.	ID=Break217;Note=START_CORE4082+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1140291	1140389	.	+	.	Name=CL_4082;Parent=Break217;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE	274386	276646	.	+	.	ID=U_CORE218;Note=START_CORE1263+:8172+:8171+:8170+:8169+:8168+:8167+:U_CORE1270-;Contig=1;Genome=E00031;Name=U_CORE Insertion;Genes=8172, 8171, 8170, 8169, 8168, 8167, 
+1	PanOCT	U_CORE_Cluster	274386	275063	.	+	.	Name=CL_1263;Parent=U_CORE218;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	U_CORE_Cluster	276417	276646	.	+	.	Name=CL_1270;Parent=U_CORE218;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	12997	14006	.	+	.	ID=Break219;Note=START_CORE45+;Contig=3;Genome=E00031;Name=Break Insertion
+3	PanOCT	Break_Cluster	12997	14006	.	+	.	Name=CL_45;Parent=Break219;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	Break	1151515	1151606	.	+	.	ID=Break220;Note=START_CORE4085-;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1151515	1151606	.	+	.	Name=CL_4085;Parent=Break220;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+2	PanOCT	Break	181231	181509	.	+	.	ID=Break221;Note=START_CORE4740-;Contig=2;Genome=E00031;Name=Break Insertion
+2	PanOCT	Break_Cluster	181231	181509	.	+	.	Name=CL_4740;Parent=Break221;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	171900	172719	.	+	.	ID=STOP_CORE222;Note=START_CORE4769-:STOP_CORE4766-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion
+2	PanOCT	STOP_CORE_Cluster	171900	172206	.	+	.	Name=CL_4769;Parent=STOP_CORE222;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	172410	172719	.	+	.	Name=CL_4766;Parent=STOP_CORE222;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE	151684	154226	.	+	.	ID=STOP_CORE223;Note=START_CORE4829-:STOP_CORE4824-;Contig=2;Genome=E00031;Name=STOP_CORE Insertion
+2	PanOCT	STOP_CORE_Cluster	151684	152030	.	+	.	Name=CL_4829;Parent=STOP_CORE223;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+2	PanOCT	STOP_CORE_Cluster	153617	154226	.	+	.	Name=CL_4824;Parent=STOP_CORE223;Note=Core Cluster; Contig=2;Genome=E00031;Index=1
+1	PanOCT	Break	1244540	1244740	.	+	.	ID=Break224;Note=START_CORE4181+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1244540	1244740	.	+	.	Name=CL_4181;Parent=Break224;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+3	PanOCT	Break	33598	37194	.	+	.	ID=Break225;Note=START_CORE2324+:4890-:4891-:4892-:4893-:4894-:4895-:4896-:4897-:4898+:6861+:6862-:6863-:6864-:2319+;Contig=3;Genome=E00031;Name=Break Insertion;Genes=4890, 4891, 4892, 4893, 4894, 4895, 4896, 4897, 4898, 6861, 6862, 6863, 6864, 
+3	PanOCT	Break_Cluster	33598	34044	.	+	.	Name=CL_2324+;Parent=Break225;Note=Core Cluster; Contig=3;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	525018	525959	.	+	.	ID=STOP_CORE226;Note=START_CORE2048-:7868-:STOP_CORE2052-;Contig=1;Genome=E00031;Name=STOP_CORE Insertion;Genes=7868, 
+1	PanOCT	STOP_CORE_Cluster	525018	525450	.	+	.	Name=CL_2048;Parent=STOP_CORE226;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	525720	525959	.	+	.	Name=CL_2052;Parent=STOP_CORE226;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE	1098629	1099113	.	+	.	ID=STOP_CORE227;Note=START_CORE3880-:STOP_CORE3881+;Contig=1;Genome=E00031;Name=STOP_CORE Insertion
+1	PanOCT	STOP_CORE_Cluster	1098629	1098848	.	+	.	Name=CL_3880;Parent=STOP_CORE227;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	STOP_CORE_Cluster	1098870	1099113	.	+	.	Name=CL_3881;Parent=STOP_CORE227;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
+1	PanOCT	Break	1209263	1209405	.	+	.	ID=Break228;Note=START_CORE4104+;Contig=1;Genome=E00031;Name=Break Insertion
+1	PanOCT	Break_Cluster	1209263	1209405	.	+	.	Name=CL_4104;Parent=Break228;Note=Core Cluster; Contig=1;Genome=E00031;Index=1
